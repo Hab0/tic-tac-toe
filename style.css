@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #E8F9FD;
+    color: black;
+}
+#main-header {
+    font-family: 'Macondo', cursive;
+    font-size: 2rem;
+    background: linear-gradient(to top, #764AF1, #35206e);
+    padding: 3rem 1.2rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: #764AF1;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white ;
+}
+.alt-btn {
+    background-color: transparent;
+    border-color: transparent;
+    color: #764AF1;
+}
+.btn:hover {
+    background-color: #a78df0;
+    border-color: #a78df0;
+}
+
+.alt-btn:hover {
+    background-color: #d6cdee;
+    border-color: transparent;
+}

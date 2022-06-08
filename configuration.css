@@ -1,0 +1,67 @@
+#layout {
+    text-align: center;
+}
+#layout h2 {
+    margin: 0.5rem 0;
+}
+.input-config {
+    margin: 0.5rem 0;
+}
+.input-config label {
+    display: block;
+    font-weight: bold;
+}
+.input-config input {
+    font: inherit;
+    border: 2px solid #764AF1;
+    border-radius: 5px;
+    width: 15rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.input-config input:hover {
+    border: 2px solid #aa90f2;
+    border-radius: 5px;
+}
+
+#game-config {
+    width: 90%;
+    max-width: 40rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+#game-config ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+#game-config li {
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: #e9e8ed;
+}
+#game-config h2 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+#game-config h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #35206e;
+}
+.xo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5rem  0;
+}
+.error input {
+    border-color: red;
+    color: red;
+    background-color: rgb(252, 218, 218);
+}
